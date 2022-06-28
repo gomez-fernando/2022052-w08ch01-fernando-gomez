@@ -7,7 +7,7 @@
     "scripts": {
         "start": "run-p tsc dev",
         "tsc": "tsc --watch",
-        "dev": "cross-env PORT=3400 nodemon ./dist/index.js",
+        "dev": "cross-env PORT=4000 nodemon ./dist/index.js",
         "test": "jest --watchAll --coverage"
     },
     "keywords": [],
